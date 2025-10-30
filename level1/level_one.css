@@ -1,4 +1,25 @@
+body{
+  margin:0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height:100vh;
+  background-color:black;
+  font-family:Arial,sans-serif
+}
+
 .container {
-    display: grid;
-    /* style the columns and rows here */
+    display: flex;
+  }
+  .winter{
+   background-color: aqua;
+  }
+  .spring{
+    background-color: greenyellow;
+  }
+  .summer{
+    background-color: orange;
+  }
+  .fall{
+    background-color: lightcoral;
   }

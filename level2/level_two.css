@@ -1,5 +1,47 @@
-.months-container {
+body{
+   background-color:black;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin:0;
 }
-
-.days-container {
+.grid-container{
+   display:grid;
+   grid-template-columns: repeat(4,150px);
+   grid-template-rows: repeat(3,100);
+   gap: 5px;
+}
+.grid-container div{
+   display:flex;
+   justify-content: center;
+   color:white;
+   font-family: arial,sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+   border-radius: 5px
+}
+body{
+   background-color: color;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   height:100vh;
+   margin:0;
+}
+.calender{
+   display:grid;
+   grid-template-columns: repeat(7,100px);
+   grid-template-rows: repeat(5,80px);
+   gap:5px;
+}
+.calender div{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   font-family:arial, sans-serif;
+   font-size:18px;
+   font-weight:bold;
+   color:white;
+   border-radius:5px;
 }
